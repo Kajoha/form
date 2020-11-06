@@ -15,7 +15,7 @@ body {
 #form {
   width: 400px;
   background-color: #F8F4F4;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   position: absolute;
   right: 50px; }
 
@@ -28,8 +28,12 @@ p {
   text-transform: uppercase; }
 
 .display {
-  margin-top: 5px;
+  margin-top: 8px;
   display: block; }
+
+.font {
+  font-size: 0.825rem;
+  color: gray; }
 
 .botton {
   background-color: #778b35;
@@ -41,3 +45,10 @@ p {
 
 .botton + .botton {
   margin-left: 10px; }
+
+.sing {
+  background-color: #778b35;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  margin-bottom: 20px; }

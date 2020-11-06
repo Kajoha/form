@@ -32,25 +32,29 @@
                             <label>Male</label>
                         </div>
                     </div>
-                    <div id="pyment" class="clearfix">
-                        <p>gender</p>
-                        <div class="botton">
-                            <input type="radio" name="credit">
-                            <label>Credit Card</label>
+                    <div id="pyment">
+                        <p>pyment details</p>
+                        <div class="clearfix">
+                            <div class="botton">
+                                <input type="radio" name="credit">
+                                <label>Credit Card</label>
+                            </div>
+                            <div class="botton">
+                                <input type="radio" name="paypal">
+                                <label>Paypal</label>
+                            </div>
                         </div>
-                        <div class="botton">
-                            <input type="radio" name="paypal">
-                            <label>Paypal</label>
-                        </div>
-                    </div>
-                    <div id="terms">
                         <input type="text" name="Card Number" class="display" placeholder="Card Number">
                         <input type="text" name="Card" class="display"  placeholder="Card">
                         <input type="date" class="display" name="fecha">
-
                     </div>
-
-                    <input type="submit" value="Enviar la información">
+                    <div id="terms">
+                        <p>terms y conditions</p>
+                        <input type="checkbox" id="terminos" name="terminos">
+                        <label for="terminos" class="font">Yes I accept the terms and conditions of signing up to this service and have read the privacy pilicy regarding the storing my information.</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="sing" value="submit">Sign Up!</button>
                 </form>
             </div>
         </div>

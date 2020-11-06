@@ -1,7 +1,7 @@
 #form {
     width: 400px;
     background-color: #F8F4F4;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     position: absolute;
     right: 50px;
 }
@@ -17,6 +17,11 @@ p {
 }
 
 .display {
-    margin-top: 5px;
+    margin-top: 8px;
     display: block;
+}
+
+.font{
+    font-size: 0.825rem ;
+    color: gray;
 }
