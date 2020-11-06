@@ -1,0 +1,12 @@
+.botton {
+    background-color: #778b35;
+    padding: 8px 15px 8px 12px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 15px; 
+}
+
+.botton + .botton {
+    margin-left: 10px;
+}
