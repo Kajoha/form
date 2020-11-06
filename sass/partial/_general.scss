@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-image: url(../../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#wrapper{
+position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
